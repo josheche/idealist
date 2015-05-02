@@ -1,2 +1,32 @@
-%h1 WELCOME PLACEHOLDER
-%p idealist | notes for thinkers
+#banner
+  .banner-content
+    %h1 IdeaList
+    %p Notes for Professional Thinkers.
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "Remembering stuff is really hard. Unless you're, like, that guy from The Mentalist, or something..."
+    %p.name - Josh Echeverri
+
+#callouts
+  .callout-inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Food truck Austin vegan Helvetica ethical Wes Anderson, literally XOXO street art brunch twee swag bespoke tilde. Ennui four dollar toast sustainable slow-carb, before they sold out kitsch pork belly sartorial tattooed Neutra Shoreditch authentic stumptown mustache.
+      .callout
+        %h2 Notes
+        %p Banksy cardigan McSweeney's, church-key Etsy vinyl Williamsburg keytar artisan single-origin coffee Pinterest ethical. Schlitz readymade fingerstache, scenester skateboard next level slow-carb ennui fashion axe. Tumblr four loko Carles heirloom. Yr skateboard hella, street art master cleanse cliche slow-carb Pinterest try-hard McSweeney's pop-up freegan lo-fi sriracha.
+      .callout
+        %h2 Notes
+        %p Dreamcatcher Portland gluten-free sustainable, organic cardigan mustache leggings actually pour-over typewriter. Freegan VHS Neutra bicycle rights. Street art Neutra 8-bit, VHS chambray PBR&B flannel cornhole Truffaut farm-to-table. Kitsch wayfarers bitters direct trade ugh Echo Park.
+
+#bottom_cta
+  .wrapper
+    %h2 Sign up today!
+    %p Keep all your ideas in a neat, password protected database.
+    %button= link_to "Sign Up", new_user_registration_path
+
+%footer
+  %p %copy; 2015 Joshua Echeverri
