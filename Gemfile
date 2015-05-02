@@ -41,5 +41,14 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  # haml is easy as shit html (if that was even possible)
+  gem 'haml', '~> 4.0.6'
+
+  # simple as shit forms! wow!
+  gem 'simple_form', '~> 3.1.0'
+
+  #Flexible authentication solution for Rails with Warden
+  gem 'devise', '~> 3.4.1'
 end
 
