@@ -59,22 +59,22 @@ a {
   color: $green;
   text-decoration: none;
   &:hover {
-    color: $dark_gray;
+    color: #2B2E2E;
   }
 }
 
 header {
-  background: $dark_gray;
+  background: #2B2E2E;
   position: fixed;
   top: 0;
   width: 100%;
   padding: 1.75rem 0;
-  border-bottom: 7px solid $green;
+  border-bottom: 7px solid silver;
   .header_inner {
     width: 90%;
     margin: 0 auto;
     #logo {
-      display: inline-block;
+      display: inline;
       width: 10rem;
       float: left;
     }
@@ -95,7 +95,7 @@ header {
 }
 
 footer {
-  background: $dark_gray;
+  background: #2B2E2E;
   width: 100%;
   padding: 2rem 0;
   color: white;
@@ -110,7 +110,7 @@ footer {
 input[type="text"], input[type="email"], input[type="password"], textarea {
   width: 100%;
   margin-bottom: 1rem;
-  border: 1px solid $light_gray;
+  border: 1px solid #2B2E2E;
   border-radius: .4rem;
 }
 

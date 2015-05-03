@@ -1,13 +1,18 @@
-#banner
-  .banner-content
-    %h1 IdeaList
-    %p Notes for Professional Thinkers.
-    %button= link_to "Sign Up", new_user_registration_path
+.nav
+.nav-pills
+  #banner
+    .banner-content
+      %h1 IdeaList
+      %p Notes for Professional Thinkers.
 
-#testimonial
-  .wrapper
-    %p.quote "Remembering stuff is really hard. Unless you're, like, that guy from The Mentalist, or something..."
-    %p.name - Josh Echeverri
+      %a= link_to "Sign Up", new_user_registration_path, class: "button"
+
+.container
+  #testimonial
+    .wrapper
+    .well
+      %p.quote "Remembering stuff is really hard. Unless you're, like, that guy from The Mentalist, or something..."
+      %p.name - Josh Echeverri
 
 #callouts
   .callout-inner
@@ -26,7 +31,7 @@
   .wrapper
     %h2 Sign up today!
     %p Keep all your ideas in a neat, password protected database.
-    %button= link_to "Sign Up", new_user_registration_path
+    %a= link_to "Sign Up", new_user_registration_path, class: "button"
 
 %footer
-  %p %copy; 2015 Joshua Echeverri
+  %p © 2015 Joshua Echeverri
